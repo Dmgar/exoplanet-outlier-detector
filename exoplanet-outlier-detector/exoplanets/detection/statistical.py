@@ -1,6 +1,4 @@
 """
-statistical.py
---------------
 Métodos estadísticos clásicos para detección de outliers en curvas de luz.
 
 Métodos disponibles:
