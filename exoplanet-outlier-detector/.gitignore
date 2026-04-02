@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Entorno virtual
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datos (pueden ser grandes, no subir al repo)
+data/raw/
+data/processed/
+*.fits
+*.csv
+*.h5
+*.hdf5
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cobertura de tests
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Variables de entorno
+.env
+.env.local
+
+# Logs
+*.log
+logs/
