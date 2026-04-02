@@ -1,4 +1,4 @@
-# 🪐 Exoplanet Outlier Detector
+# Exoplanet Outlier Detector
 
 Detección de exoplanetas candidatos mediante análisis de **outliers estadísticos** en series de tiempo fotométricas (curvas de luz) y datos de velocidad radial.
 
@@ -6,13 +6,13 @@ Este proyecto explora métodos no convencionales para identificar señales anóm
 
 ---
 
-## 🎯 Motivación
+## Motivación
 
 Los métodos clásicos de detección (Box Least Squares, BLS) buscan patrones periódicos específicos. Este proyecto se enfoca en un enfoque complementario: **¿qué señales son estadísticamente inusuales?** Algunos exoplanetas con órbitas excéntricas, tránsitos únicos (monotransits) o sistemas multiplanetarios complejos pueden ser difíciles de capturar con métodos periódicos tradicionales.
 
 ---
 
-## 🔭 Fuentes de datos
+## Fuentes de datos
 
 | Dataset | Descripción | Acceso |
 |---|---|---|
@@ -22,7 +22,7 @@ Los métodos clásicos de detección (Box Least Squares, BLS) buscan patrones pe
 
 ---
 
-## 🗂️ Estructura del proyecto
+## Estructura del proyecto
 
 ```
 exoplanet-outlier-detector/
@@ -65,7 +65,7 @@ exoplanet-outlier-detector/
 
 ---
 
-## 🚀 Instalación
+## Instalación
 
 ```bash
 # Clonar el repositorio
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚡ Uso rápido
+## Uso rápido
 
 ```python
 from exoplanets.data.loader import LightCurveLoader
@@ -102,7 +102,7 @@ print(f"Outliers encontrados: {outliers.sum()}")
 
 ---
 
-## 🧪 Tests
+## Tests
 
 ```bash
 pytest tests/ -v
@@ -110,7 +110,7 @@ pytest tests/ -v
 
 ---
 
-## 📚 Referencias
+## Referencias
 
 - Aigrain & Irwin (2004) — *Practical planet prospecting*
 - Shallue & Vanderburg (2018) — *Identifying Exoplanets with Deep Learning*
@@ -119,6 +119,6 @@ pytest tests/ -v
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 MIT License — ver [LICENSE](LICENSE) para detalles.
