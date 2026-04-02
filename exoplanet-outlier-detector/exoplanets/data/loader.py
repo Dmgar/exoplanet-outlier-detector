@@ -1,9 +1,4 @@
-"""
-loader.py
----------
-Descarga y carga de curvas de luz usando lightkurve.
-Soporta misiones: Kepler, K2, TESS.
-"""
+#Descarga y carga de curvas de luz usando lightkurve. Soporta misiones: Kepler, K2, TESS.
 
 import numpy as np
 import pandas as pd
